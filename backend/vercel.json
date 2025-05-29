@@ -1,6 +1,6 @@
 {
     "installCommand": "pip3 install -r requirements.txt",
-    "buildCommand": "python3 app.py",
+    "buildCommand": "flask run --port=9012",
     "routes": [
         {
             "src": "/(.*)",
