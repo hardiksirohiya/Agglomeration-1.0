@@ -1,10 +1,6 @@
 {
     "installCommand": "pip3 install -r requirements.txt",
-    "buildCommand": "python3 app.py",
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
+    "rewrites": [
+    { "source": "/(.*)", "destination": "/app" }
+  ]
 }
