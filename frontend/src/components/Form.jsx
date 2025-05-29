@@ -44,7 +44,7 @@ const Form = () => {
       const url = import.meta.env.VITE_BACKEND_URL;
       console.log("Sending data to:", url);
       const res = await axios.post(
-        "http://"+ url + "/test",
+        "https://"+ url + "/test",
         body,
         {
           headers: {
