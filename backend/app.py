@@ -32,6 +32,3 @@ def test():
     print(ans)
     return jsonify({'score': ans})
 
-
-if __name__ == '__main__':
-    app.run(debug=True, port=8003)
