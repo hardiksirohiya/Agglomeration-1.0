@@ -1,0 +1,10 @@
+{
+    "installCommand": "pip install -r requirements.txt",
+    "buildCommand": "python app.py",
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
