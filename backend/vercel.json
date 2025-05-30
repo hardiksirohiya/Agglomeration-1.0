@@ -1,7 +1,5 @@
 {
-    "build": {
-      "command": "python -m pip install -r requirements.txt"
-    },
+    "installcommand": "pip3 install -r requirements.txt"
     "routes": [
       {
         "src": "/.*",
