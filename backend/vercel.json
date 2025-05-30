@@ -2,8 +2,8 @@
     "installcommand": "pip3 install -r requirements.txt"
     "routes": [
       {
-        "src": "/.*",
-        "dest": "app.py"
+        "src": "/(.*)",
+        "dest": "/app.py"
       }
     ]
 }
